@@ -1,0 +1,12 @@
+@import '../base/variables';
+.inform{
+  height: 40px;
+  padding-top: 10px;
+  background-color: $main-color;
+  &__title{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color:#fff
+  }
+}

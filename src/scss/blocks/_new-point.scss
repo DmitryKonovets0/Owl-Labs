@@ -1,0 +1,56 @@
+.new-point{
+  position: relative;
+  padding: 73px 0px 103px 0px;
+  height: 674px;
+  background: url("../img/bg/blueLineBg.png") center center/cover no-repeat;
+  &__title{
+    z-index: 2;
+    font-size: 155px;
+    font-weight: 900;
+  }
+  &__img{
+    top: 30px;
+    position: absolute;
+    left: 600px;
+    z-index: 0;
+  }
+  &__wrapper{
+    margin-top: 222px;
+    margin-left: 214px;
+    width: 430px;
+  }
+
+
+  &__subtitle{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  &__btn{
+    color:#fff;
+    margin-top: 40px;
+    width: 208px;
+    height: 48px;
+    border-radius: 24px;
+    border:none;
+    background: rgb(20, 20, 20);
+  }
+  .experience{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    &__play{
+
+    }
+    &__descr{
+      margin-left: 13px;
+    }
+    &___line{
+      width: 153px;
+      margin-left: 38px;
+      border: none; /* Убирает стандартные границы hr */
+      height: 2px; /* Задает толщину линии */
+      background-color: #000;
+    }
+  }
+}
