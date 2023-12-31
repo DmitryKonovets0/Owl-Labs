@@ -1,0 +1,43 @@
+@import '../base/variables';
+.see{
+  position: relative;
+  height: 1196px;
+  padding: 129px 0 284px 0;
+  .container{
+    display: block;
+  }
+  &__woman{
+    z-index: 2;
+  }
+  &__title{
+    margin-top: 97px;
+    font-size: 83px;
+    font-weight: 900;
+  }
+  &__subtitle{
+    margin-top: 23px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  &__btn{
+    margin-top: 20px;
+    width: 240px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 24px;
+    background: $main_color;
+  }
+  &__owl{
+    top: 406px;
+    right: 263px ;
+    position: absolute;
+    &_round{
+      position: absolute;
+      top: 308px;
+      right: 131px;
+    }
+    }
+  }
