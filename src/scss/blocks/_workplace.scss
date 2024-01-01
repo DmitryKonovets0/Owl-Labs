@@ -1,0 +1,68 @@
+@import "../base/mixin";
+.workplace{
+  height: 1184px;
+  padding: 127px 0 182px 0;
+  &__title{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__card{
+    padding: 24px 0 32px 0;
+    width: 282px;
+    height: 386px;
+    border: 3px solid rgb(0, 0, 0);
+    background: rgb(164, 195, 216);
+    &:nth-child(2){
+      background-color: #D9A603;
+    }
+    &:nth-child(3){
+      background-color: #FFB480;
+    }
+    &:nth-child(4){
+      background-color: #B3B97D;
+    }
+
+  }
+  .card{
+    &__title{
+      font-size: 31px;
+      font-weight: 400;
+      margin-left: 26px;
+    }
+    &__subtitle{
+      @include subtitle();
+      margin-top: 11px;
+      font-size: 20px;
+      width: 226px;
+      line-height: 28px;
+      margin-left: 25px;
+      &:first-child{
+        width: 199px;
+      }
+    }
+    &__arrow{
+      margin-top: 209px;
+      margin-left: 237px;
+    }
+
+  }
+  #first{
+    margin-top:181px;
+  }
+  &__descr{
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    &-span{
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15.96px;
+    }
+  }
+}
