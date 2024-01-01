@@ -1,0 +1,15 @@
+.hoots{
+  height: 542px;
+  padding: 127px 0;
+  background-color: rgb(245, 245, 245);
+  &__title{
+    font-size: 47px;
+    font-weight: 400;
+    text-align: center;
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 38px;
+  }
+}
