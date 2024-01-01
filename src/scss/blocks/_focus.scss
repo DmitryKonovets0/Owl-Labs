@@ -1,0 +1,40 @@
+@import '../base/variables';
+.focus{
+  position: relative;
+  height: 970px;
+  padding: 107px 0 337px 0;
+  background: url("../img/bg/orange.png") center center/cover no-repeat;
+  .container{
+    display: block
+  }
+  &__title{
+    font-size: 85px;
+    font-weight: 900;
+  }
+  &__subtitle{
+    margin-top: 43px;
+    font-size: 32px;
+    font-weight: 400;
+  }
+  &__btn{
+    margin-top: 40px;
+    border: none;
+    border-radius: 24px;
+    background-color: $main-color;
+    font-size: 16px;
+    font-weight: 400;
+    width: 240px;
+    height: 48px;
+  }
+  &-img{
+    &__wrapper{
+      position: absolute;
+      top: 127px;
+      right: 34px;
+    }
+    &__man{
+      margin-right: 37px;
+    }
+
+  }
+}
