@@ -1,0 +1,56 @@
+.how{
+  background-color: rgb(245, 245, 245);
+  height: 826px;
+  .container{
+    display: flex;
+  }
+  &__wrapper{
+    height: 512px;
+    width: 760px;
+    background:url("../icons/womanOnlyMeet.png") center center/cover no-repeat ;
+  }
+  &__text{
+    margin-left: 40px;
+    margin-top: 18px;
+    font-size: 61px;
+    font-weight: 400;
+    color: #fff;
+  }
+  &__btn{
+    width: 762px;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    color: black;
+    margin-top: 374px;
+    border: 1px solid #000;
+  }
+  .card{
+    margin-left: 25px;
+    padding: 72px 0 33px 39px ;
+    width: 368px;
+    height: 586px;
+    background-color: rgb(10, 50, 50);
+    &__title{
+      font-size: 31px;
+      font-weight: 700;
+      color: #fff;
+    }
+    &__descr{
+      margin-top: 18px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #fff;
+    }
+    &__subtitle{
+      margin-top: 287px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff;
+    }
+    &__arrow{
+      margin-left: 268px;
+      margin-top: -16px;
+    }
+  }
+}
