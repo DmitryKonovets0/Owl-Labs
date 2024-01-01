@@ -4,6 +4,7 @@
   .container{
     align-items: center;
     display: flex;
+    //justify-content: space-around;
   }
   ul{
     width: 255px;
@@ -16,16 +17,22 @@
     list-style: none;
   }
   &__logo{
+    margin-left: 310px;
   }
   &__login{
     font-size: 15px;
+    margin-left: 231px;
     font-weight: 400;
   }
   &__btn{
+    margin-left: 33px;
     border: 1px solid rgb(20, 20, 20);
     width: 210px;
     height: 50px;
+    background-color: white;
+    color: black;
   }
   &__bag{
+    margin-left: 33px;
   }
 }

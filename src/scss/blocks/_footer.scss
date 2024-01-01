@@ -1,0 +1,139 @@
+@import "../base/variables";
+.footer{
+  display: flex;
+  padding: 120px 60px 40px 45px;
+  height: 694px;
+  background-color: $main-color;
+  &__wrapper__icons{
+    width: 216px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+  }
+  &__wrapper__text{
+    display: flex;
+    justify-content: space-around;
+    width: 288px;
+  }
+  &__text{
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 32px;
+  }
+  &__header{
+    font-size: 31px;
+    font-weight: 400;
+    margin-left: 84px;
+
+    color: #fff;
+  }
+  &__email{
+    margin-left: 84px;
+    margin-top: 55px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .5;
+  }
+  &__arrow{
+    margin-left: 466px;
+    margin-top: -17px;
+    margin-bottom: -28px;
+  }
+  &__line{
+    margin-left: 84px;
+    margin-top: 5px;
+    border: none;
+    background-color: #fff;
+    width: 400px;
+    height: 1px;
+  }
+  &__wrapper_link{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+  }
+  &__company{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    &_link{
+      margin-top: 8px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &__wrapper_reseller{
+    display: flex;
+    flex-direction: column;
+
+  }
+  &__resellers{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    &_link{
+      margin-top: 11px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &__contact{
+    margin-left: 147px;
+    &_header{
+
+      font-size: 12px;
+      font-weight: 400;
+      color: #fff;
+    }
+  }
+  &__phone{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+  }
+  &__chat{
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+  }
+  &__sales{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+  &__support{
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    &_contact{
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  &__press{
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+  }
+  &__country{
+    color: #fff;
+    margin-left: 75px;
+    margin-top: 290px;
+    &_img{
+      margin-top: -33px;
+      margin-left: 260px;
+    }
+  }
+}
