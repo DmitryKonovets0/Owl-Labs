@@ -1,11 +1,9 @@
 @import '../base/variables';
+@import "../base/mixin";
 .see{
   position: relative;
   height: 1196px;
   padding: 129px 0 284px 0;
-  .container{
-    display: block;
-  }
   &__woman{
     z-index: 2;
   }
@@ -16,19 +14,10 @@
   }
   &__subtitle{
     margin-top: 23px;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
+    @include subtitle()
   }
   &__btn{
     margin-top: 20px;
-    width: 240px;
-    height: 48px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    border-radius: 24px;
-    background: $main_color;
   }
   &__owl{
     top: 406px;

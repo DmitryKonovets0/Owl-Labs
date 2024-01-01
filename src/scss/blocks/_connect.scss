@@ -1,0 +1,17 @@
+@import "../base/mixin";
+.connect{
+  height: 904px;
+  padding: 56px 0 352px 0;
+  background: url("../img/bg/table.png") center center/cover no-repeat;
+  &__title{
+    font-size: 83px;
+    font-weight: 900;
+  }
+  &__subtitle{
+    @include subtitle();
+    margin-top: 14px;
+  }
+  &__btn{
+    margin-top: 40px;
+  }
+}

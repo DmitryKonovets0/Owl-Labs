@@ -1,0 +1,12 @@
+@import "../base/variables";
+
+.button{
+  width: 240px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 24px;
+  background-color: $main_color;
+  border: none;
+}

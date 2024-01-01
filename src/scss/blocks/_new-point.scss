@@ -1,8 +1,12 @@
+@import "../base/mixin";
 .new-point{
   position: relative;
   padding: 73px 0px 103px 0px;
   height: 674px;
   background: url("../img/bg/blueLineBg.png") center center/cover no-repeat;
+  .container{
+    display: flex;
+  }
   &__title{
     z-index: 2;
     font-size: 155px;
@@ -22,17 +26,12 @@
 
 
   &__subtitle{
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
+    @include subtitle()
   }
   &__btn{
-    color:#fff;
     margin-top: 40px;
     width: 208px;
     height: 48px;
-    border-radius: 24px;
-    border:none;
     background: rgb(20, 20, 20);
   }
   .experience{
