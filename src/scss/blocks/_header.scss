@@ -1,15 +1,22 @@
 .header{
   height: 100px;
-  padding: 24px 0 24px 0;
+  padding: 20px 0 24px 0;
   .container{
-    align-items: center;
-    display: flex;
-    //justify-content: space-around;
+    display: grid;
+    grid-template-columns: 576px 400px 345px;
+
   }
   ul{
     width: 255px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: left;
+    align-items: center;
   }
   &__list{
     font-size: 16px;
@@ -17,11 +24,12 @@
     list-style: none;
   }
   &__logo{
-    margin-left: 310px;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 321px ;
   }
   &__login{
     font-size: 15px;
-    margin-left: 231px;
     font-weight: 400;
   }
   &__btn{
